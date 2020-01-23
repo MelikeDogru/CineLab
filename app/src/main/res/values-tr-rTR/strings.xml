@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CineLab</string>
+    <string name="rate">puan</string>
+    <string name="movie_name">Film Adı</string>
+    <string name="nav_home">Ana Sayfa</string>
+    <string name="nav_search">Arama</string>
+    <string name="nav_discuss">Popüler</string>
+    <string name="nav_favorites">Favoriler</string>
+    <string name="nav_profile">Profil</string>
+    <string name="nav_watch_list">İzlenecekler</string>
+    <string name="btn_login">Giriş Yap</string>
+    <string name="hint_password">Şifre</string>
+    <string name="register_detail_if_you_don_t_have_a_account">Hesabın yok mu?</string>
+    <string name="btn_register">Kaydol</string>
+    <string name="name_and_surname_register">Ad ve Soyad</string>
+    <string name="password_register">Şifre</string>
+    <string name="btn_register_Register">Kaydol</string>
+    <string name="create_a_cinelab_account">CineLab Hesabı Oluştur</string>
+    <string name="logout_over_flow">Çıkış Yap</string>
+    <string name="the_most_popular_movies">En Çok İzlenen Filmler</string>
+    <string name="ara">Ara...</string>
+    <string name="detail_movie_descr">Yakın bir gelecekte geçen filmde Logan (Hugh Jackman) artık yaşlanmış ve yorulmuş, süper yetenekleri erozyona uğramaya başlamıştır.Unutkanlaşan Profesörü, Meksika sınırına yakın bir yerde saklamaktadır. </string>
+    <string name="release_year">Yıl</string>
+    <string name="make_comments">Sen de yorum yap...</string>
+    <string name="favorilerim">Favorilerim</string>
+    <string name="my_watchlist">İzlenecekler Listem</string>
+    <string name="let_s_discuss">Popüler Filmler</string>
+    <string name="top_rated">En Yüksek Puan Alanlar</string>
+    <string name="settings_over_flow">Ayarlar</string>
+    <string name="preference_name_surname">İsim ve Soyisim</string>
+    <string name="preference_email">E-mail</string>
+    <string name="preference_password">Şifre</string>
+    <string name="preference_favorities_list">Favoriler Listesini Aktive Et</string>
+    <string name="preference_watch_list">İzlenecekler Listesini Aktive Et</string>
+    <string name="now_playing_movies">Vizyondakiler</string>
+    <string name="upcoming_movies">Yakında Vizyonda</string>
+    <string name="voteCount">Oy Sayısı</string>
+    <string name="trailers">Tanıtımlar</string>
+    <string name="my_watch_list">İzlenecekler Listem</string>
+    <string name="text_notification">Film listelerine göz atmak ister misin?</string>
+    <string name="yes_notification">Favorilerim</string>
+    <string name="no_notification">İzlenecekler listem</string>
+    <string name="test_notification">Bildirim Testi</string>
+</resources>

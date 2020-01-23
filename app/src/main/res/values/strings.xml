@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">CineLab</string>
+    <string name="rate">rate</string>
+    <string name="movie_name">Movie Name</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_discuss">Popular</string>
+    <string name="nav_favorites">Favorites</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_watch_list">WatchList</string>
+    <string name="btn_login">Login</string>
+    <string name="hint_password">Password</string>
+    <string name="register_detail_if_you_don_t_have_a_account">If you don\'t have a account,</string>
+    <string name="btn_register">Register</string>
+    <string name="email_register" translatable="false">E-mail</string>
+    <string name="name_and_surname_register">Name and Surname</string>
+    <string name="password_register">Password</string>
+    <string name="btn_register_Register">Register</string>
+    <string name="create_a_cinelab_account">Create a CineLab Account</string>
+    <string name="logout_over_flow">Logout</string>
+    <string name="the_most_popular_movies">The Most Popular Movies</string>
+    <string name="ara">Search...</string>
+    <string name="detail_movie_descr">In a future where mutants are nearly extinct, an elderly and weary Logan leads a quiet life. But when Laura, a mutant child pursued by scientists, comes to him for help, he must get her to safety.</string>
+    <string name="release_year">Release Year</string>
+    <string name="make_comments">Make Comments...</string>
+    <string name="favorilerim">My Favorites</string>
+    <string name="my_watchlist">My WatchList</string>
+    <string name="let_s_discuss">Popular Movies</string>
+    <string name="text_notification">Do you want to look at your movie lists?</string>
+    <string name="yes_notification">My Favorites</string>
+    <string name="no_notification">My Watchlist</string>
+    <string name="test_notification">Test Notification</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="top_rated">Top Rated</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="settings_over_flow">Settings</string>
+    <string name="preference_name_surname">Name and Surname</string>
+    <string name="preference_email">E-mail</string>
+    <string name="preference_password">Password</string>
+    <string name="preference_favorities_list">Activate the Favorites List</string>
+    <string name="preference_watch_list">Activate the Watch List</string>
+    <string name="now_playing_movies">Now Playing Movies</string>
+    <string name="upcoming_movies">Upcoming Movies</string>
+    <string name="voteCount">Vote Count</string>
+    <string name="trailers">Trailers</string>
+    <string name="my_watch_list">My Watch List</string>
+
+
+</resources>

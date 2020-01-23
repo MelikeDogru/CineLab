@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="@color/colorBackground"
+    android:orientation="vertical">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/navigation_bar"
+        android:orientation="vertical"
+        android:id="@+id/ns">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/cl">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/slider_pager"
+                android:layout_width="0dp"
+                android:layout_height="275dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/indicator"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/slider_pager"
+                app:tabBackground="@drawable/selector_indi"
+                app:tabGravity="center"
+                app:tabIndicatorHeight="0dp">
+
+
+            </android.support.design.widget.TabLayout>
+
+            <android.support.v4.widget.SwipeRefreshLayout
+                android:id="@+id/main_content_for_recycle_view"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_marginTop="24dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/indicator">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recyclerView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp" />
+
+
+            </android.support.v4.widget.SwipeRefreshLayout>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginEnd="8dp"
+                android:text="@string/now_playing_movies"
+                style="@style/textInputHintStyle"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.05"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/indicator" />
+
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/textInputHintStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="@string/upcoming_movies"
+                android:onClick="testNotification"
+                android:layout_marginTop="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.05"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/main_content_for_recycle_view"/>
+
+            <android.support.v4.widget.SwipeRefreshLayout
+                android:id="@+id/upcoming_movies_refresh_layout"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="2dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.05"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/upcoming_movies_recycle_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp" />
+
+            </android.support.v4.widget.SwipeRefreshLayout>
+
+
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+
+
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:background="@color/colorPrimaryDark"
+        app:itemIconTint="@color/colorAccent"
+        app:itemTextColor="@color/colorGrey1"
+        app:menu="@menu/bottom_navigation"
+        android:layout_alignParentBottom="true"
+
+
+        />
+
+</RelativeLayout>
